@@ -65,14 +65,14 @@ if($count==1){
 
 $_SESSION['admin_email']=$admin_email;
 
-echo "<script>alert('You are Logged in into admin panel')</script>";
+echo "<script>alert('Jeni të loguar tek paneli i adminit!')</script>";
 
 echo "<script>window.open('index.php?dashboard','_self')</script>";
 
 }
 else {
 
-echo "<script>alert('Email or Password is Wrong')</script>";
+echo "<script>alert('Email ose fjalëkalim i gabuar!')</script>";
 
 }
 

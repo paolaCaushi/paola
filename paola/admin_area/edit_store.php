@@ -53,7 +53,7 @@ $new_s_image = $row_store['store_image'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Edit store
+<i class="fa fa-dashboard" ></i> Dashboard / Ndrysho Dyqanin
 
 </li>
 
@@ -73,7 +73,7 @@ $new_s_image = $row_store['store_image'];
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Edit store
+<i class="fa fa-money fa-fw"></i>Ndrysho Dyqanin
 
 </h3>
 
@@ -85,7 +85,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Title : </label>
+<label class="col-md-3 control-label"> Emri i dyqanit: </label>
 
 <div class="col-md-6">
 
@@ -99,7 +99,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Image : </label>
+<label class="col-md-3 control-label"> Pamja e dyqanit : </label>
 
 <div class="col-md-6">
 
@@ -116,7 +116,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Description : </label>
+<label class="col-md-3 control-label"> Përshkrim i shkurtër : </label>
 
 <div class="col-md-6">
 
@@ -133,7 +133,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Button : </label>
+<label class="col-md-3 control-label"> Buton : </label>
 
 <div class="col-md-6">
 
@@ -145,7 +145,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Url : </label>
+<label class="col-md-3 control-label"> URL e dyqanit : </label>
 
 <div class="col-md-6">
 
@@ -208,7 +208,7 @@ $run_store = mysqli_query($con,$update_store);
 
 if($run_store){
 
-echo "<script>alert('One store Column Has Been Updated')</script>";
+echo "<script>alert('U ndryshua kolona e dyqanit')</script>";
 
 echo "<script>window.open('index.php?view_store','_self')</script>";
 

@@ -149,7 +149,7 @@ $cat_title = $row_cat['cat_title'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Title </label>
+<label class="col-md-3 control-label" > Titulli i Produktit </label>
 
 <div class="col-md-6" >
 
@@ -162,7 +162,7 @@ $cat_title = $row_cat['cat_title'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Url </label>
+<label class="col-md-3 control-label" > URL </label>
 
 <div class="col-md-6" >
 
@@ -172,7 +172,7 @@ $cat_title = $row_cat['cat_title'];
 
 <p style="font-size:15px; font-weight:bold;">
 
-Product Url Example : navy-blue-t-shirt
+Shembull URL-je: tuta pambuku
 
 </p>
 
@@ -321,7 +321,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Image 3 </label>
+<label class="col-md-3 control-label" > Imazhi i Produktit</label>
 
 <div class="col-md-6" >
 
@@ -358,7 +358,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Keywords </label>
+<label class="col-md-3 control-label" > Fjale Kyce </label>
 
 <div class="col-md-6" >
 
@@ -384,15 +384,10 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <li>
 
-<a data-toggle="tab" href="#features"> Product Features </a>
+<a data-toggle="tab" href="#features"> Karakteristika </a>
 
 </li>
 
-<li>
-
-<a data-toggle="tab" href="#video"> Sounds And Videos </a>
-
-</li>
 
 </ul><!-- nav nav-tabs Ends -->
 
@@ -461,7 +456,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="col-md-6" >
 
-<input type="submit" name="update" value="Update Product" class="btn btn-primary form-control" >
+<input type="submit" name="update" value="Ndrysho Produkt" class="btn btn-primary form-control" >
 
 </div>
 
@@ -557,3 +552,4 @@ echo "<script>window.open('index.php?view_products','_self')</script>";
 ?>
 
 <?php } ?>
+

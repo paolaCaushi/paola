@@ -92,19 +92,19 @@ $new_p_cat_image = $row_edit['p_cat_image'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" >Show as Top Product Category</label>
+<label class="col-md-3 control-label" >Shfaq si Kategori Kryesore</label>
 
 <div class="col-md-6" >
 
 <input type="radio" name="p_cat_top" value="yes" 
 <?php if($p_cat_top == 'no'){}else{ echo "checked='checked'"; } ?>>
 
-<label> Yes </label>
+<label> Po </label>
 
 <input type="radio" name="p_cat_top" value="no" 
 <?php if($p_cat_top == 'no'){ echo "checked='checked'"; }else{} ?>>
 
-<label> No </label>
+<label> Jo </label>
 
 </div>
 
@@ -132,7 +132,7 @@ $new_p_cat_image = $row_edit['p_cat_image'];
 
 <div class="col-md-6" >
 
-<input type="submit" name="update" value="Update Now" class="btn btn-primary form-control" >
+<input type="submit" name="update" value="Ndrysho" class="btn btn-primary form-control" >
 
 </div>
 

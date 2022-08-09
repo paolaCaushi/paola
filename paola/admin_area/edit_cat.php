@@ -78,7 +78,7 @@ $new_c_image = $row_edit['cat_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Category Title</label>
+<label class="col-md-3 control-label">Titulli i Kategorisë</label>
 
 <div class="col-md-6">
 
@@ -131,7 +131,7 @@ $new_c_image = $row_edit['cat_image'];
 
 <div class="col-md-6">
 
-<input type="submit" name="update" value="Update Category" class="btn btn-primary form-control">
+<input type="submit" name="update" value="Ndrysho Kategori" class="btn btn-primary form-control">
 
 </div>
 
@@ -173,7 +173,7 @@ $run_cat = mysqli_query($con,$update_cat);
 
 if($run_cat){
 
-echo "<script>alert('One Category Has Been Updated')</script>";
+echo "<script>alert('Kategoria u ndryshua!')</script>";
 
 echo "<script>window.open('index.php?view_cats','_self')</script>";
 

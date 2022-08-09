@@ -21,7 +21,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Dashboard / Insert Coupon
+<i class="fa fa-dashboard"> </i> Dashboard / Shto Kupon
 
 </li>
 
@@ -41,7 +41,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"> </i> Insert Coupon
+<i class="fa fa-money fa-fw"> </i> Shto Kupon
 
 </h3><!-- panel-title Ends -->
 
@@ -53,7 +53,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Coupon Title </label>
+<label class="col-md-3 control-label"> Titulli i Kuponit </label>
 
 <div class="col-md-6">
 
@@ -65,7 +65,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Coupon Price </label>
+<label class="col-md-3 control-label"> Cmimi </label>
 
 <div class="col-md-6">
 
@@ -77,7 +77,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Coupon Code </label>
+<label class="col-md-3 control-label"> Kodi </label>
 
 <div class="col-md-6">
 
@@ -89,7 +89,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Coupon Limit </label>
+<label class="col-md-3 control-label"> Afati </label>
 
 <div class="col-md-6">
 
@@ -101,13 +101,13 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Select coupon for Product Or bundle</label>
+<label class="col-md-3 control-label">Zgjidh kupon për produktin</label>
 
 <div class="col-md-6">
 
 <select name="product_id" class="form-control">
 
-<option> Select Coupon Product  </option>
+<option> Zgjidh Kupon për produktin </option>
 
 <?php
 
@@ -163,7 +163,7 @@ echo "<option value='$p_id'> $p_title </option>";
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class=" btn btn-primary form-control" value=" Insert Coupon ">
+<input type="submit" name="submit" class=" btn btn-primary form-control" value=" Shto Kupon ">
 
 </div>
 
@@ -214,7 +214,7 @@ $run_coupon = mysqli_query($con,$insert_coupon);
 
 if($run_coupon){
 
-echo "<script>alert('New Coupon Has Been Inserted')</script>";
+echo "<script>alert('Kuponi i ri u shtua')</script>";
 
 echo "<script>window.open('index.php?view_coupons','_self')</script>";
 

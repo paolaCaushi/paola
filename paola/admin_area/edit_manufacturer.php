@@ -80,7 +80,7 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Manufacturer Name </label>
+<label class="col-md-3 control-label"> Emri i Furnitorit </label>
 
 <div class="col-md-6">
 
@@ -92,21 +92,7 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Furnitorët Kryesorë </label>
 
-<div class="col-md-6">
-
-<input type="radio" name="manufacturer_top" value="yes" 
-<?php if($m_top == 'no'){}else{ echo "checked='checked'"; } ?> >
-
-<label> Yes </label>
-
-<input type="radio" name="manufacturer_top" value="no" 
-<?php if($m_top == 'no'){ echo "checked='checked'"; }else{} ?> >
-
-<label> No </label>
-
-</div>
 
 </div><!-- form-group Ends -->
 

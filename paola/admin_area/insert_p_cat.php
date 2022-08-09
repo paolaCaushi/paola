@@ -19,7 +19,7 @@ else {
 
 <li>
 
-<i class="fa fa-dashboard"></i> Dashboard / Insert Products Category
+<i class="fa fa-dashboard"></i> Dashboard / Shto Kategorinë e Produktit
 
 </li>
 
@@ -39,7 +39,7 @@ else {
 
 <h3 class="panel-title" ><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw" ></i> Insert Product Category
+<i class="fa fa-money fa-fw" ></i> Shto Kategorinë e Produktit
 
 </h3><!-- panel-title Ends -->
 
@@ -53,7 +53,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" >Product Category Title</label>
+<label class="col-md-3 control-label" >Titulli i Produktit të Kategorisë</label>
 
 <div class="col-md-6" >
 
@@ -65,17 +65,17 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" >Show as Top Product Category</label>
+<label class="col-md-3 control-label" >Trego si Kategori Kryesore</label>
 
 <div class="col-md-6" >
 
 <input type="radio" name="p_cat_top" value="yes" >
 
-<label> Yes </label>
+<label> Po </label>
 
 <input type="radio" name="p_cat_top" value="no" >
 
-<label> No </label>
+<label> Jo </label>
 
 </div>
 
@@ -83,7 +83,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Select Product Category Image</label>
+<label class="col-md-3 control-label" > Zgjidh imazhin e produktit</label>
 
 <div class="col-md-6" >
 
@@ -99,7 +99,7 @@ else {
 
 <div class="col-md-6" >
 
-<input type="submit" name="submit" value="Submit Now" class="btn btn-primary form-control" >
+<input type="submit" name="submit" value="Shto" class="btn btn-primary form-control" >
 
 </div>
 
@@ -136,7 +136,7 @@ $run_p_cat = mysqli_query($con,$insert_p_cat);
 
 if($run_p_cat){
 
-echo "<script>alert('New Product Category Has been Inserted')</script>";
+echo "<script>alert('Kategoria e re e produktit u shtua!')</script>";
 
 echo "<script>window.open('index.php?view_p_cats','_self')</script>";
 

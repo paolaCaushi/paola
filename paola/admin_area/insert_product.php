@@ -15,7 +15,7 @@ else {
 
 <head>
 
-<title> Insert Products </title>
+<title> Shto Produkte </title>
 
 
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
@@ -33,7 +33,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Dashboard / Insert Products
+<i class="fa fa-dashboard"> </i> Dashboard / Shto Produkte
 
 </li>
 
@@ -54,7 +54,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Insert Products
+<i class="fa fa-money fa-fw"></i> Shto Produkte
 
 </h3>
 
@@ -66,7 +66,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Title </label>
+<label class="col-md-3 control-label" > Titulli i produktit </label>
 
 <div class="col-md-6" >
 
@@ -79,7 +79,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Url </label>
+<label class="col-md-3 control-label" > URL </label>
 
 <div class="col-md-6" >
 
@@ -89,7 +89,7 @@ else {
 
 <p style="font-size:15px; font-weight:bold;">
 
-Product Url Example : navy-blue-t-shirt
+Shembull i URl-je produkti: tuta pambuku
 
 </p>
 
@@ -100,7 +100,7 @@ Product Url Example : navy-blue-t-shirt
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Select A Manufacturer </label>
+<label class="col-md-3 control-label" > Zgjidh Furnitor </label>
 
 <div class="col-md-6" >
 
@@ -133,7 +133,7 @@ $manufacturer_title
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Category </label>
+<label class="col-md-3 control-label" > Kategoria e Produktit </label>
 
 <div class="col-md-6" >
 
@@ -170,14 +170,14 @@ echo "<option value='$p_cat_id' >$p_cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Category </label>
+<label class="col-md-3 control-label" > Kategoria </label>
 
 <div class="col-md-6" >
 
 
 <select name="cat" class="form-control" >
 
-<option> Select a Category </option>
+<option> Zgjidh Kategorinë </option>
 
 <?php
 
@@ -206,7 +206,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Image 1 </label>
+<label class="col-md-3 control-label" > Imazhi i Produktit </label>
 
 <div class="col-md-6" >
 
@@ -218,7 +218,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Image 2 </label>
+<label class="col-md-3 control-label" > Imazhi i Produktit </label>
 
 <div class="col-md-6" >
 
@@ -230,7 +230,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Image 3 </label>
+<label class="col-md-3 control-label" > Imazhi i Produktit</label>
 
 <div class="col-md-6" >
 
@@ -242,7 +242,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Price </label>
+<label class="col-md-3 control-label" > Cmimi i produktit </label>
 
 <div class="col-md-6" >
 
@@ -254,7 +254,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Sale Price </label>
+<label class="col-md-3 control-label" > Cmimi i shitjes </label>
 
 <div class="col-md-6" >
 
@@ -266,7 +266,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Keywords </label>
+<label class="col-md-3 control-label" > Fjale Kyce </label>
 
 <div class="col-md-6" >
 
@@ -276,31 +276,21 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
-
-<label class="col-md-3 control-label" > Product Tabs </label>
-
-<div class="col-md-6" >
 
 <ul class="nav nav-tabs"><!-- nav nav-tabs Starts -->
 
 <li class="active">
 
-<a data-toggle="tab" href="#description"> Product Description </a>
+<a data-toggle="tab" href="#description"> Përshkrimi i Produktit </a>
 
 </li>
 
 <li>
 
-<a data-toggle="tab" href="#features"> Product Features </a>
+<a data-toggle="tab" href="#features"> Karakteristikat e Produktit </a>
 
 </li>
 
-<li>
-
-<a data-toggle="tab" href="#video"> Sounds And Videos </a>
-
-</li>
 
 </ul><!-- nav nav-tabs Ends -->
 
@@ -350,8 +340,6 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Label </label>
-
 <div class="col-md-6" >
 
 <input type="text" name="product_label" class="form-control" required >
@@ -366,7 +354,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="col-md-6" >
 
-<input type="submit" name="submit" value="Insert Product" class="btn btn-primary form-control" >
+<input type="submit" name="submit" value="Shto Produkt" class="btn btn-primary form-control" >
 
 </div>
 
@@ -431,7 +419,7 @@ $run_product = mysqli_query($con,$insert_product);
 
 if($run_product){
 
-echo "<script>alert('Product has been inserted successfully')</script>";
+echo "<script>alert('Produkti u shtua me sukses!')</script>";
 
 echo "<script>window.open('index.php?view_products','_self')</script>";
 

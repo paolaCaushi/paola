@@ -22,7 +22,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard / Insert Terms
+<i class="fa fa-dashboard"></i> Dashboard / Shto Termat e Përdorimit
 
 </li>
 
@@ -46,7 +46,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"></i> Insert Terms
+<i class="fa fa-money fa-fw"></i> Shto Termat
 
 </h3><!-- panel-title Ends -->
 
@@ -58,7 +58,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Term Title </label>
+<label class="col-md-3 control-label"> Titulli</label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -70,7 +70,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Term Description </label>
+<label class="col-md-3 control-label"> Përshkrimi </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -82,7 +82,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Term Link </label>
+<label class="col-md-3 control-label"> Linku </label>
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -98,7 +98,7 @@ else {
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
-<input type="submit" name="submit" value="Insert Term" class="btn btn-primary form-control" >
+<input type="submit" name="submit" value="Shto termat" class="btn btn-primary form-control" >
 
 </div><!-- col-md-6 Ends -->
 
@@ -132,7 +132,7 @@ $run_term = mysqli_query($con,$insert_term);
 
 if($run_term){
 
-echo "<script>alert('New Term Has Been Inserted')</script>";
+echo "<script>alert('U shtua term i ri')</script>";
 
 echo "<script>window.open('index.php?view_terms','_self')</script>";
 

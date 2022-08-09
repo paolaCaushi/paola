@@ -314,32 +314,31 @@ if($status == "product"){
 
 
 </select>
-
 </div><!-- col-md-7 Ends -->
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
+<!--<div class="form-group" >
 
 <label class="col-md-5 control-label" >Bundle Size</label>
 
-<div class="col-md-7" ><!-- col-md-7 Starts -->
+<div class="col-md-7" >
 
 <select name="product_size" class="form-control" >
 
 <option>Select a Size</option>
 <option>Small</option>
 <option>Medium</option>
-<option>Large</option>
+<option>Large</option> 
 
 
 </select>
 
-</div><!-- col-md-7 Ends -->
+</div>
 
 
-</div><!-- form-group Ends -->
-
+</div>
+-->
 
 <?php } ?>
 
@@ -422,13 +421,13 @@ Bundle Price : $$pro_price
 
 <button class="btn btn-danger" type="submit" name="add_cart">
 
-<i class="fa fa-shopping-cart" ></i> Add to Cart
+<i class="fa fa-shopping-cart" ></i> Shto ne Karte
 
 </button>
 
 <button class="btn btn-warning" type="submit" name="add_wishlist">
 
-<i class="fa fa-heart" ></i> Add to Wishlist
+<i class="fa fa-heart" ></i> Shto ne Listen e Deshirave
 
 </button>
 
@@ -566,11 +565,7 @@ Features
 
 </a><!-- btn btn-primary tab Ends -->
 
-<a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-Sounds and Videos
-
-</a><!-- btn btn-primary tab Ends -->
 
 <hr style="margin-top:0px;">
 
@@ -745,151 +740,6 @@ $product_label
 
 ?>
 
-<?php }else{ ?>
-
-<div class="box same-height"><!-- box same-height Starts -->
-
-<h3 class="text-center"> Bundle Products </h3>
-
-</div><!-- box same-height Ends -->
-
-<?php
-
-$get_bundle_product_relation = "select * from bundle_product_relation where bundle_id='$pro_id'";
-
-$run_bundle_product_relation = mysqli_query($con,$get_bundle_product_relation);
-
-while($row_bundle_product_relation = mysqli_fetch_array($run_bundle_product_relation)){
-
-$bundle_product_relation_product_id = $row_bundle_product_relation['product_id'];
-
-$get_products = "select * from products where product_id='$bundle_product_relation_product_id'";
-
-
-$run_products = mysqli_query($con,$get_products);
-
-while($row_products = mysqli_fetch_array($run_products)){
-$pro_id = $row_products['product_id'];
-
-$pro_title = $row_products['product_title'];
-
-$pro_price = $row_products['product_price'];
-
-$pro_img1 = $row_products['product_img1'];
-
-$pro_label = $row_products['product_label'];
-
-$manufacturer_id = $row_products['manufacturer_id'];
-
-$get_manufacturer = "select * from manufacturers where manufacturer_id='$manufacturer_id'";
-
-$run_manufacturer = mysqli_query($db,$get_manufacturer);
-
-$row_manufacturer = mysqli_fetch_array($run_manufacturer);
-
-$manufacturer_name = $row_manufacturer['manufacturer_title'];
-
-$pro_psp_price = $row_products['product_psp_price'];
-
-$pro_url = $row_products['product_url'];
-
-
-if($pro_label == "Sale" or $pro_label == "Gift"){
-
-$product_price = "<del> $$pro_price </del>";
-
-$product_psp_price = "| $$pro_psp_price";
-
-}
-else{
-
-$product_psp_price = "";
-
-$product_price = "$$pro_price";
-
-}
-
-
-if($pro_label == ""){
-
-
-}
-else{
-
-$product_label = "
-
-<a class='label sale' href='#' style='color:black;'>
-
-<div class='thelabel'>$pro_label</div>
-
-<div class='label-background'> </div>
-
-</a>
-
-";
-
-}
-
-
-echo "
-
-<div class='col-md-3 col-sm-6 center-responsive' >
-
-<div class='product' >
-
-<a href='$pro_url' >
-
-<img src='admin_area/product_images/$pro_img1' class='img-responsive' >
-
-</a>
-
-<div class='text' >
-
-<center>
-
-<p class='btn btn-primary'> $manufacturer_name </p>
-
-</center>
-
-<hr>
-
-<h3><a href='$pro_url' >$pro_title</a></h3>
-
-<p class='price' > $product_price $product_psp_price </p>
-
-<p class='buttons' >
-
-<a href='$pro_url' class='btn btn-default' >View details</a>
-
-<a href='$pro_url' class='btn btn-primary'>
-
-<i class='fa fa-shopping-cart'></i> Add to cart
-
-</a>
-
-
-</p>
-
-</div>
-
-$product_label
-
-
-</div>
-
-</div>
-
-";
-
-
-}
-
-
-}
-
-
-
-?>
 
 
 <?php } ?>
@@ -901,7 +751,6 @@ $product_label
 
 </div><!-- container Ends -->
 </div><!-- content Ends -->
-
 
 
 <?php

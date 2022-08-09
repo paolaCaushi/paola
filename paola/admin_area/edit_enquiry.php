@@ -41,7 +41,7 @@ $enquiry_title = $row_enquiry_type['enquiry_title'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Ndrysho Faturën
+<i class="fa fa-dashboard" ></i> Dashboard / Ndrysho Kërkesën
 
 </li>
 
@@ -61,7 +61,7 @@ $enquiry_title = $row_enquiry_type['enquiry_title'];
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Ndrysho Faturën
+<i class="fa fa-money fa-fw"></i> Ndrysho Kërkesën
 
 </h3>
 
@@ -85,11 +85,11 @@ $enquiry_title = $row_enquiry_type['enquiry_title'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Titulli i Faturës  </label>
+<label class="col-md-3 control-label"> Titulli i Kërkesës </label>
 
 <div class="col-md-6">
 
-<input type="submit" name="update" class="btn btn-primary form-control" value="Update Enquiry Type">
+<input type="submit" name="update" class="btn btn-primary form-control" value="Ndrysho tipin e kërkesës">
 
 </div>
 
@@ -118,7 +118,7 @@ $run_enquiry = mysqli_query($con,$update_enquiry);
 
 if($run_enquiry){
 
-echo "<script>alert('One Enquiry Type Has Been Updated')</script>";
+echo "<script>alert('Kërkesa u ndryshua!')</script>";
 
 echo "<script>window.open('index.php?view_enquiry','_self')</script>";
 

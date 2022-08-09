@@ -115,7 +115,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="btn btn-primary form-control" value=" Update Contact Us ">
+<input type="submit" name="submit" class="btn btn-primary form-control" value=" Ndrysho faqen Rreth Nesh ">
 
 </div>
 

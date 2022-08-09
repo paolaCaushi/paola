@@ -205,7 +205,7 @@ $admin_about = $row_admin['admin_about'];
 
 <div class="col-md-6"><!-- col-md-6 Starts -->
 
-<input type="submit" name="update" value="Update User" class="btn btn-primary form-control">
+<input type="submit" name="update" value="Ndrysho Përdorues" class="btn btn-primary form-control">
 
 </div><!-- col-md-6 Ends -->
 
@@ -260,7 +260,7 @@ $run_admin = mysqli_query($con,$update_admin);
 
 if($run_admin){
 
-echo "<script>alert('Te dhenat e perdoruesit u ndryshuan!')</script>";
+echo "<script>alert('Të dhënat e përdoruesit u ndryshuan!')</script>";
 
 echo "<script>window.open('login.php','_self')</script>";
 

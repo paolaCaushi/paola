@@ -122,7 +122,7 @@ $about_desc = $row_about_us['about_desc'];
 
 <div class="col-md-8">
 
-<input type="submit" name="submit" value="Update About Us Page" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Ndrysho Faqen Rreth Nesh" class="btn btn-primary form-control">
 
 </div>
 
@@ -155,7 +155,7 @@ $run_about_us = mysqli_query($con,$update_about_us);
 
 if($run_about_us){
 
-echo "<script>alert('About Us Page Has Been Updated')</script>";
+echo "<script>alert('Faqja Rreth Nesh u ndryshua!')</script>";
 
 echo "<script>window.open('index.php?dashboard','_self')</script>";
 

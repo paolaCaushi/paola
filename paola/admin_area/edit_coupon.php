@@ -169,11 +169,11 @@ echo "<option value='$p_id'> $p_title </option>";
 
 ?>
 
-<option></option>
+<!--<option></option>
 
 <option>Select Coupon for bundle</option>
 
-<option></option>
+<option></option> -->
 
 <?php
 
@@ -191,7 +191,7 @@ echo "<option value='$p_id'> $p_title </option>";
 
 }
 
-?>
+?> 
 
 </select>
 
@@ -242,7 +242,7 @@ $run_coupon = mysqli_query($con,$update_coupon);
 
 if($run_coupon){
 
-echo "<script>alert('One Coupon Has Been Updated')</script>";
+echo "<script>alert('<uponi u ndryshua!')</script>";
 
 echo "<script>window.open('index.php?view_coupons','_self')</script>";
 

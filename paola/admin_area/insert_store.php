@@ -22,7 +22,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Insert store
+<i class="fa fa-dashboard" ></i> Dashboard / Shto Dyqan
 
 </li>
 
@@ -42,7 +42,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Insert store
+<i class="fa fa-money fa-fw"></i> Shto Dyqan
 
 </h3>
 
@@ -54,7 +54,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Title : </label>
+<label class="col-md-3 control-label"> Titulli : </label>
 
 <div class="col-md-6">
 
@@ -68,7 +68,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Image : </label>
+<label class="col-md-3 control-label"> Pamja e Dyqanit: </label>
 
 <div class="col-md-6">
 
@@ -81,7 +81,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Description : </label>
+<label class="col-md-3 control-label"> Përshkrimi : </label>
 
 <div class="col-md-6">
 
@@ -98,7 +98,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Button : </label>
+<label class="col-md-3 control-label"> Buton : </label>
 
 <div class="col-md-6">
 
@@ -110,7 +110,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Url : </label>
+<label class="col-md-3 control-label"> URL: </label>
 
 <div class="col-md-6">
 
@@ -126,7 +126,7 @@ else {
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" value="Insert store" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Shto Dyqan" class="btn btn-primary form-control">
 
 </div>
 
@@ -167,7 +167,7 @@ $count = mysqli_num_rows($run_store);
 
 if($count == 3){
 
-echo "<script>alert('You Have already Inserted 3 store columns')</script>";
+echo "<script>alert('Ju keni shtuar tre kolona!')</script>";
 
 }
 else{
@@ -180,7 +180,7 @@ $run_store = mysqli_query($con,$insert_store);
 
 if($run_store){
 
-echo "<script>alert('New store Column Has Been Inserted')</script>";
+echo "<script>alert('U shtua kolonë e re te dyqani!')</script>";
 
 echo "<script>window.open('index.php?view_store','_self')</script>";
 
