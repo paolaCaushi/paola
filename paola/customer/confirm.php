@@ -147,7 +147,7 @@ $run_pending_order = mysqli_query($con,$update_pending_order);
 
 if($run_pending_order){
 
-echo "<script>alert('Pagesa juaj është marrë, porosia do të përfundojë brenda 24 orëve')</script>";
+echo "<script>alert('Pagesa juaj është konfirmuar, porosia do të përfundojë brenda 24 orëve')</script>";
 
 echo "<script>window.open('my_account.php?my_orders','_self')</script>";
 
