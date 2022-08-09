@@ -4,7 +4,7 @@
 
 <p class="text-muted" >
 
-If you have any questions, please feel free to <a href="../contact.php" >contact us,</a> our customer service center is working for you 24/7.
+Nese keni ndonje pyetje,<a href="../contact.php" > na kontaktoni ,</a> stafi yne eshte 24/7 prane jush!
 
 </p>
 
