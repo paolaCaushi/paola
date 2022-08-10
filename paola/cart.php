@@ -49,7 +49,7 @@ $count = mysqli_num_rows($run_cart);
 
 ?>
 
-<p class="text-muted" > Ju keni <?php echo $count; ?> artikuj ne karten tuaj. </p>
+<p class="text-muted" > Ju keni <?php echo $count; ?> artikuj në kartën tuaj. </p>
 
 <div class="table-responsive" ><!-- table-responsive Starts -->
 
@@ -63,13 +63,13 @@ $count = mysqli_num_rows($run_cart);
 
 <th>Sasia</th>
 
-<th>Cmimi per sasi</th>
+<th>Cmimi për sasi</th>
 
 <th>Madhesia</th>
 
 <th colspan="1">Fshi</th>
 
-<th colspan="2"> Nentotali </th>
+<th colspan="2"> Nëntotali </th>
 
 
 </tr>
@@ -180,7 +180,7 @@ $<?php echo $sub_total; ?>.00
 
 </div><!-- form-group Ends -->
 
-<input class="btn btn-primary" type="submit" name="apply_coupon" value="Apply Coupon Code" >
+<input class="btn btn-primary" type="submit" name="apply_coupon" value="Vendos kodin e kuponit" >
 
 </div><!-- form-inline pull-right Ends -->
 
@@ -201,7 +201,7 @@ $<?php echo $sub_total; ?>.00
 
 <div class="pull-right"><!-- pull-right Starts -->
 
-<button class="btn btn-info" type="submit" name="update" value="Update Cart">
+<button class="btn btn-info" type="submit" name="update" value="Ndrysho Karten">
 
 <i class="fa fa-refresh"></i> Ndrysho Karten
 
@@ -209,7 +209,7 @@ $<?php echo $sub_total; ?>.00
 
 <a href="checkout.php" class="btn btn-success">
 
-Proceed to Checkout <i class="fa fa-chevron-right"></i>
+ Checkout <i class="fa fa-chevron-right"></i>
 
 </a>
 
@@ -255,7 +255,7 @@ $coupon_used = $row_coupons['coupon_used'];
 
 if($coupon_limit == $coupon_used){
 
-echo "<script>alert('Your Coupon Code Has Been Expired')</script>";
+echo "<script>alert('Kuponi juaj ka skaduar!')</script>";
 
 }
 else{
@@ -277,14 +277,14 @@ $update_cart = "update cart set p_price='$coupon_price' where p_id='$coupon_pro'
 
 $run_update = mysqli_query($con,$update_cart);
 
-echo "<script>alert('Your Coupon Code Has Been Applied')</script>";
+echo "<script>alert('Kodi i kuponit u vendos!')</script>";
 
 echo "<script>window.open('cart.php','_self')</script>";
 
 }
 else{
 
-echo "<script>alert('Product Does Not Exist In Cart')</script>";
+echo "<script>alert('Produkti nuk ndodhet ne karte!')</script>";
 
 }
 
@@ -293,7 +293,7 @@ echo "<script>alert('Product Does Not Exist In Cart')</script>";
 }
 else{
 
-echo "<script> alert('Your Coupon Code Is Not Valid') </script>";
+echo "<script> alert('Kuponi i pavlefshem!') </script>";
 
 }
 
@@ -351,7 +351,7 @@ echo @$up_cart = update_cart();
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You may like these Products </h3>
+<h3 class="text-center"> Produkte që mund t'ju interesojnë </h3>
 
 </div><!-- box same-height headline Ends -->
 
@@ -455,11 +455,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View Details</a>
+<a href='$pro_url' class='btn btn-default' >Shiko Detajet</a>
 
 <a href='$pro_url' class='btn btn-danger'>
 
-<i class='fa fa-shopping-cart'></i> Add To Cart
+<i class='fa fa-shopping-cart'></i> Shto në Kartë
 
 </a>
 
@@ -513,9 +513,9 @@ Transporti dhe kostot shtesë llogariten sipas vlerave që vendosni.
 
 <tr>
 
-<td> Porosit nentotalin </td>
+<td> Vlera e produktit</td>
 
-<th> $<?php echo $total; ?>.00 </th>
+<th> ALL<?php echo $total; ?>.00 </th>
 
 </tr>
 
@@ -539,7 +539,7 @@ Transporti dhe kostot shtesë llogariten sipas vlerave që vendosni.
 
 <td>Total</td>
 
-<th>$<?php echo $total; ?>.00</th>
+<th>ALL<?php echo $total; ?>.00</th>
 
 </tr>
 

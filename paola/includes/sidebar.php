@@ -68,7 +68,7 @@ $aCat[(int)$sVal] = (int)$sVal;
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-Manufacturers
+Furnitorët
 
 <div class="pull-right"><!-- pull-right Starts -->
 
@@ -76,7 +76,7 @@ Manufacturers
 
 <span class="nav-toggle hide-show">
 
-Hide
+Fshih
 
 </span>
 
@@ -94,7 +94,7 @@ Hide
 
 <div class="input-group"><!-- input-group Starts -->
 
-<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-manufacturer" placeholder="Filter Manufacturers">
+<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-manufacturer" placeholder="Filtro sipas Furnitorit">
 
 
 <a class="input-group-addon"> <i class="fa fa-search"></i> </a>
@@ -264,7 +264,7 @@ Fshih
 
 <div class="input-group"><!-- input-group Starts -->
 
-<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-p-cats" placeholder="Filter Product Categories">
+<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-p-cats" placeholder="Filtro sipas Kategorisë së Produkteve">
 
 <a class="input-group-addon"> <i class="fa fa-search"></i> </a>
 
@@ -431,7 +431,7 @@ Fshih
 
 <div class="input-group"><!-- input-group Starts -->
 
-<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-cats" placeholder="Filter Categories">
+<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-cats" placeholder="Filtro Kategoritë">
 
 <a class="input-group-addon"> <i class="fa fa-search"> </i> </a>
 

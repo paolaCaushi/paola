@@ -427,7 +427,7 @@ Bundle Price : $$pro_price
 
 <button class="btn btn-warning" type="submit" name="add_wishlist">
 
-<i class="fa fa-heart" ></i> Shto ne Listen e Deshirave
+<i class="fa fa-heart" ></i> Shto në Listën e Dëshirave
 
 </button>
 
@@ -438,7 +438,7 @@ if(isset($_POST['add_wishlist'])){
 
 if(!isset($_SESSION['customer_email'])){
 
-echo "<script>alert('You Must Login To Add Product In Wishlist')</script>";
+echo "<script>alert('Duhet të hyni në platformë për të blerë ose shtuar në listën e dëshirave produktin!')</script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 
@@ -463,7 +463,7 @@ $check_wishlist = mysqli_num_rows($run_wishlist);
 
 if($check_wishlist == 1){
 
-echo "<script>alert('This Product Has Been already Added In Wishlist')</script>";
+echo "<script>alert('Produkti ekziston në Listën e Dëshirave!')</script>";
 
 echo "<script>window.open('$pro_url','_self')</script>";
 
@@ -476,7 +476,7 @@ $run_wishlist = mysqli_query($con,$insert_wishlist);
 
 if($run_wishlist){
 
-echo "<script> alert('Product Has Inserted Into Wishlist') </script>";
+echo "<script> alert('Produkti u shtua në Listën e Dëshirave!') </script>";
 
 echo "<script>window.open('$pro_url','_self')</script>";
 
@@ -561,7 +561,7 @@ echo "Bundle Description";
 
 <a class="btn btn-info tab" style="margin-bottom:10px;" href="#features" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-Features
+Karakteristikat
 
 </a><!-- btn btn-primary tab Ends -->
 
@@ -608,7 +608,7 @@ if($status == "product"){
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You may also like these Products: We provide you top 3 product items. </h3>
+<h3 class="text-center"> Produkte të tjera që mund t'ju pëlqejnë. </h3>
 
 </div><!-- box same-height headline Ends -->
 
@@ -712,11 +712,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View Details</a>
+<a href='$pro_url' class='btn btn-default' >Shiko Detajet</a>
 
 <a href='$pro_url' class='btn btn-danger'>
 
-<i class='fa fa-shopping-cart'></i> Add To Cart
+<i class='fa fa-shopping-cart'></i> Shto në Kartë
 
 </a>
 

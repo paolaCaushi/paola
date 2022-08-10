@@ -370,7 +370,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Tabs </label>
+
 
 <div class="col-md-6" >
 

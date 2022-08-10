@@ -178,7 +178,7 @@ $subject = "Mirë se erdhët në faqen tonë!";
 
 $msg = "Do ju kthejmë përgjigje sa më shpejt!";
 
-$from = "paola@gmail.com";
+$from = "paolacaushi2014@gmail.com";
 
 mail($email,$subject,$msg,$from);
 

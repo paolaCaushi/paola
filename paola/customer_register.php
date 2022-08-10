@@ -51,7 +51,7 @@ include("includes/main.php");
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label>Customer Name</label>
+<label>Emri i Klientit</label>
 
 <input type="text" class="form-control" name="c_name" required>
 
@@ -59,7 +59,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Email</label>
+<label>  Email</label>
 
 <input type="text" class="form-control" name="c_email" required>
 
@@ -67,7 +67,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Password </label>
+<label>  Password </label>
 
 <div class="input-group"><!-- input-group Starts -->
 
@@ -100,7 +100,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Confirm Password </label>
+<label> Konfrirmo Password-in </label>
 
 <div class="input-group"><!-- input-group Starts -->
 
@@ -121,7 +121,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Country </label>
+<label> Shteti </label>
 
 <input type="text" class="form-control" name="c_country" required>
 
@@ -129,7 +129,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer City </label>
+<label> Qyteti </label>
 
 <input type="text" class="form-control" name="c_city" required>
 
@@ -137,7 +137,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Contact </label>
+<label> Kontakti </label>
 
 <input type="text" class="form-control" name="c_contact" required>
 
@@ -145,7 +145,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Address </label>
+<label> Adresa </label>
 
 <input type="text" class="form-control" name="c_address" required>
 
@@ -153,7 +153,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Image </label>
+<label> Imazh </label>
 
 <input type="file" class="form-control" name="c_image" required>
 
@@ -177,7 +177,7 @@ include("includes/main.php");
 
 <button type="submit" name="register" class="btn btn-primary">
 
-<i class="fa fa-user-md"></i> Register
+<i class="fa fa-user-md"></i> Rregjistrohu
 
 </button>
 
@@ -371,7 +371,7 @@ $check_email = mysqli_num_rows($run_email);
 
 if($check_email == 1){
 
-echo "<script>alert('This email is already registered, try another one')</script>";
+echo "<script>alert('Email ekziston, provoni email tjetër!')</script>";
 
 exit();
 
@@ -379,14 +379,14 @@ exit();
 
 $customer_confirm_code = mt_rand();
 
-$subject = "Email Confirmation Message";
+$subject = "Mesazhi i konfirmit të email-it";
 
-$from = "sad.ahmed22224@gmail.com";
+$from = "paolacaushi2014@gmail.com";
 
 $message = "
 
 <h2>
-Email Confirmation By Computerfever.com $c_name
+Email Konfirmimi nga Computerfever.com $c_name
 </h2>
 
 <a href='localhost/ecom_store/customer/my_account.php?$customer_confirm_code'>
@@ -397,7 +397,7 @@ Kliko për të konfirmuar email
 
 ";
 
-$headers = "From: $from \r\n";
+$headers = "Nga: $from \r\n";
 
 $headers .= "Content-type: text/html\r\n";
 

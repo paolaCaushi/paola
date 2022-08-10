@@ -49,7 +49,7 @@ include("includes/main.php");
             <div class="footer-nav__heading">Informacion</div>
             <ul class="footer-nav__list">
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Brande</a>
+                <a href="#" class="footer-nav__link">Markat</a>
               </li>
               <li class="footer-nav__item">
                 <a href="#" class="footer-nav__link">Dyqane</a>
@@ -58,10 +58,7 @@ include("includes/main.php");
                 <a href="#" class="footer-nav__link">Shërbimi klientit</a>
               </li>
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Privacy &amp; cookies</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Site map</a>
+                <a href="#" class="footer-nav__link">Privatësia &amp; cookies</a>
               </li>
             </ul>
           </div>
@@ -70,25 +67,22 @@ include("includes/main.php");
             <div class="footer-nav__heading">Pse të blini nga ne</div>
             <ul class="footer-nav__list">
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Shipping &amp; returns</a>
+                <a href="#" class="footer-nav__link">Transporti &amp; kthimi i produkteve</a>
               </li>
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Secure shipping</a>
+                <a href="#" class="footer-nav__link">Transport i sigurtë</a>
               </li>
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Testimonials</a>
+                <a href="#" class="footer-nav__link">Përshtypjet</a>
               </li>
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Award winning</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Ethical trading</a>
+                <a href="#" class="footer-nav__link">Tregti e sigurtë</a>
               </li>
             </ul>
           </div>
 
           <div class="footer-nav__col footer-nav__col--account">
-            <div class="footer-nav__heading">Your account</div>
+            <div class="footer-nav__heading">Llogaria ime</div>
             <ul class="footer-nav__list">
               <li class="footer-nav__item">
                 <a href="#" class="footer-nav__link">Hyr</a>
@@ -101,9 +95,6 @@ include("includes/main.php");
               </li>
               <li class="footer-nav__item">
                 <a href="#" class="footer-nav__link">Shikoni platformën</a>
-              </li>
-              <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link">Gjurmo një porosi</a>
               </li>
               <li class="footer-nav__item">
                 <a href="#" class="footer-nav__link">Ndrysho informacionin</a>
@@ -120,11 +111,11 @@ include("includes/main.php");
           </address>
             <div class="phone">
               Cel:
-              <a class="phone__number" href="tel:0123456789">0123-456-789</a>
+              <a class="phone__number" href="tel:0123456789">06789090090</a>
             </div>
             <div class="email">
               Email:
-              <a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+              <a href="mailto:paolacaushi2014@gmail.com" class="email__addr">paolacaushi2014@gmail.com</a>
             </div>
           </div>
 

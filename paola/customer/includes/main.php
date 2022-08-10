@@ -77,7 +77,7 @@
 
             <li class="categories__item">
               <a class="categories__link categories__link--active" href="../shop.php">
-                Shop
+                Filloni blerjet
               </a>
             </li>
 

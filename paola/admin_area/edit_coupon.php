@@ -62,7 +62,7 @@ $product_title = $row_products['product_title'];
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Dashboard / ndrysho Kuponin
+<i class="fa fa-dashboard"> </i> Dashboard / Ndrysho Kuponin
 
 </li>
 
@@ -242,7 +242,7 @@ $run_coupon = mysqli_query($con,$update_coupon);
 
 if($run_coupon){
 
-echo "<script>alert('<uponi u ndryshua!')</script>";
+echo "<script>alert('Kuponi u ndryshua!')</script>";
 
 echo "<script>window.open('index.php?view_coupons','_self')</script>";
 

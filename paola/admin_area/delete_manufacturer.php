@@ -24,7 +24,7 @@ $run_manufacturer = mysqli_query($con,$delete_manufacturer);
 
 if($run_manufacturer){
 
-echo "<script>alert('Nje furnitor u fshi!')</script>";
+echo "<script>alert('Furnitor u fshi!')</script>";
 echo "<script>window.open('index.php?view_manufacturers','_self')</script>";
 
 }

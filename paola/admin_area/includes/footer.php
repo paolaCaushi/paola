@@ -46,9 +46,6 @@
 						<a href="#" class="footer-nav__link">Shiko listen e kerkesave</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Gjurmo nje porosi</a>
-					</li>
-					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Ndrysho infomacionet</a>
 					</li>
 				</ul>
@@ -66,7 +63,7 @@
 				</div>
 				<div class="email">
 					Email:
-					<a href="mailto:paolacaushi2014@gmail.com.com" class="email__addr">paolacaushi2014@gmail.com</a>
+					<a href="mailto:paolacaushi2022@gmail.com.com" class="email__addr">paolacaushi2022@gmail.com</a>
 				</div>
 			</div>
 

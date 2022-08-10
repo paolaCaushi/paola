@@ -65,7 +65,7 @@ $count = mysqli_num_rows($run_cart);
 
 <th colspan="1">Fshi</th>
 
-<th colspan="2"> Nentotali </th>
+<th colspan="2"> Nëntotali </th>
 
 
 </tr>

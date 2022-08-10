@@ -294,13 +294,13 @@ else {
 
 <li>
 
-<a href="index.php?insert_enquiry"> Faturat </a>
+<a href="index.php?insert_enquiry"> Kërkesat </a>
 
 </li>
 
 <li>
 
-<a href="index.php?view_enquiry"> View Enquiry Types </a>
+<a href="index.php?view_enquiry"> Lloji i Kërkesave </a>
 
 </li>
 
@@ -349,7 +349,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#terms" ><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-table"></i> Termat dhe Kushtet e Perdorimit
+<i class="fa fa-fw fa-table"></i> Termat dhe Kushtet e Përdorimit
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -376,7 +376,7 @@ else {
 
 <a href="index.php?view_customers">
 
-<i class="fa fa-fw fa-edit"></i> Shiko Klientet
+<i class="fa fa-fw fa-edit"></i> Shiko Klientët
 
 </a>
 
@@ -386,7 +386,7 @@ else {
 
 <a href="index.php?view_orders">
 
-<i class="fa fa-fw fa-list"></i> Shiko Porosite
+<i class="fa fa-fw fa-list"></i> Shiko Porositë
 
 </a>
 
@@ -406,7 +406,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#users">
 
-<i class="fa fa-fw fa-gear"></i> Perdoruesit
+<i class="fa fa-fw fa-gear"></i> Përdoruesit
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -416,11 +416,11 @@ else {
 <ul id="users" class="collapse">
 
 <li>
-<a href="index.php?insert_user"> Shto Perdorues </a>
+<a href="index.php?insert_user"> Shto Përdorues </a>
 </li>
 
 <li>
-<a href="index.php?view_users"> Shiko Perdorues </a>
+<a href="index.php?view_users"> Shiko Përdorues </a>
 </li>
 
 <li>

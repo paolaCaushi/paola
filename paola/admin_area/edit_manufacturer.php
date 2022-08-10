@@ -160,7 +160,7 @@ $run_manufacturer = mysqli_query($con,$update_manufacturer);
 
 if($run_manufacturer){
 
-echo "<script>alert('Manufacturer Has Been Updated')</script>";
+echo "<script>alert('Furnitori u ndryshua!')</script>";
 
 echo "<script>window.open('index.php?view_manufacturers','_self')</script>";
 
